@@ -1,0 +1,224 @@
+/* Global  */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+    
+    /* container starts  */
+    .container{
+        height: 100vh;
+        width: 100vw;
+        display: grid;
+        grid-template-columns: repeat(24,1fr);
+        grid-template-rows: repeat(24,1fr);
+        gap: 5px; 
+    }
+    /* container ends  */
+
+        /* menu starts  */
+        .menu{
+            background: #1F85DE;
+            grid-row: 2/24;
+            grid-column:2/5;
+            display: grid;
+            grid-template-rows: 2rem 1fr 2rem;
+            border-radius: 2rem;
+        }
+        /* menu ends  */
+
+            /* menu ul starts  */
+            .menu>ul{
+                grid-row: 2/3;
+                display: flex;
+                flex-direction: column;
+                align-items: start;
+                justify-content: space-evenly;
+            }
+            /* menu ul ends  */
+
+                /* menu ul li starts  */
+                .menu>ul>li{
+                    padding-left: 1rem;
+                    height: 2rem;
+                    width: 100%;
+                    display: flex;
+                    align-items: center;
+                    border-radius: 10px;
+                    
+                }
+                    .menu>ul>li:hover{
+                        background: #98cbf7;
+                        transition: all 200ms ease-in;
+                    }
+                    .menu>ul>li:hover a{
+                        color: #1F85DE;
+                    }
+                /* menu ul li ends  */
+
+                    /* menu ul li a starts  */
+                        .menu>ul>li>a{
+                            color: #98cbf7;
+                        }
+                    /* menu ul li a ends  */
+            /* menu ul li "products" sublist starts  */
+            .products{
+                grid-row: 7/19;
+                grid-column:5/8;
+                display: grid;
+                grid-template-rows: 1rem 1fr 1rem;
+                background: #1F85DE;
+                border-radius: 2rem;
+            }
+                /* products ul starts  */
+                .products>ul{
+                    grid-row: 2/3;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-evenly;
+                    align-items: start;
+                }
+                /* products ul ends  */
+                    /* products ul li starts  */
+                    .products>ul>li{
+                        padding-left: 1rem;
+                        height: 2rem;
+                        width: 100%;
+                        display: flex;
+                        align-items: center;
+                        border-radius: 10px;
+                    }
+                    .products>ul>li:hover{
+                        background: #98cbf7;
+                        transition: all 200ms ease-in;
+                    }
+                    .products>ul>li:hover a{
+                        color: #1F85DE;
+                    }
+                    /* products ul li ends  */
+                        /* products ul li a starts  */
+                        .products>ul>li>a{
+                            color: #98cbf7;
+                        }
+                        /* products ul li a ends  */
+
+                            /* menu ul li products ul li sublist starts  */
+                                /* products ul li mens starts  */
+                                .products-Mens{
+                                    grid-row: 8/18;
+                                    grid-column:8/11;
+                                    display: grid;
+                                    grid-template-rows: 1rem 1fr 1rem;
+                                    background: #1F85DE;
+                                    border-radius: 2rem;
+                                }
+                                .products-Mens>ul{
+                                    grid-row: 2/3;
+                                    display: flex;
+                                    flex-direction: column;
+                                    justify-content: space-evenly;
+                                    align-items: start;
+                                }
+                                .products-Mens>ul>li{
+                                    padding-left: 1rem;
+                                    height: 2rem;
+                                    width: 100%;
+                                    display: flex;
+                                    align-items: center;
+                                    border-radius: 10px;
+                                }
+                                .products-Mens>ul>li{
+                                    color: #98cbf7;
+                                }
+                                .products-Mens>ul>li:hover{
+                                    background: #98cbf7;
+                                    transition: all 200ms ease-in;
+                                }
+                                .products-Mens>ul>li:hover {
+                                    color: #1F85DE;
+                                }
+                                
+                                /* products ul li mens ends  */
+
+                                /* products ul li women starts  */
+                                .products-Womens{
+                                    grid-row: 8/18;
+                                    grid-column:8/11;
+                                    display: grid;
+                                    grid-template-rows: 1rem 1fr 1rem;
+                                    background: #1F85DE;
+                                    border-radius: 2rem;
+                                }
+                                .products-Womens>ul{
+                                    grid-row: 2/3;
+                                    display: flex;
+                                    flex-direction: column;
+                                    justify-content: space-evenly;
+                                    align-items: start;
+                                }
+                                .products-Womens>ul>li{
+                                    padding-left: 1rem;
+                                    height: 2rem;
+                                    width: 100%;
+                                    display: flex;
+                                    align-items: center;
+                                    border-radius: 10px;
+                                }
+                                .products-Womens>ul>li{
+                                    color: #98cbf7;
+                                }
+                                .products-Womens>ul>li:hover{
+                                    background: #98cbf7;
+                                    transition: all 200ms ease-in;
+                                }
+                                .products-Womens>ul>li:hover {
+                                    color: #1F85DE;
+                                }
+                                /* products ul li women ends  */
+
+                                /* products ul li kids starts  */
+                                .products-Kids{
+                                    grid-row: 8/18;
+                                    grid-column:8/11;
+                                    display: grid;
+                                    grid-template-rows: 1rem 1fr 1rem;
+                                    background: #1F85DE;
+                                    border-radius: 2rem;
+                                }
+                                .products-Kids>ul{
+                                    grid-row: 2/3;
+                                    display: flex;
+                                    flex-direction: column;
+                                    justify-content: space-evenly;
+                                    align-items: start;
+                                }
+                                .products-Kids>ul>li{
+                                    padding-left: 1rem;
+                                    height: 2rem;
+                                    width: 100%;
+                                    display: flex;
+                                    align-items: center;
+                                    border-radius: 10px;
+                                }
+                                .products-Kids>ul>li{
+                                    color: #98cbf7;
+                                }
+                                .products-Kids>ul>li:hover{
+                                    background: #98cbf7;
+                                    transition: all 200ms ease-in;
+                                }
+                                .products-Kids>ul>li:hover {
+                                    color: #1F85DE;
+                                }
+                                /* products ul li kids ends  */
+                            /* menu ul li products ul li sublist ends  */
+            /* menu ul li "products" sublist ends  */
+
+
+    /* rough work  */
+    .hidden{
+        display: none;
+    }
+    /* rough work ends  */
