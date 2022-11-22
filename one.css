@@ -49,6 +49,9 @@
                     border-radius: 10px;
                     
                 }
+                .menu>ul>li>a{
+                    color: #98cbf7;
+                }
                     .menu>ul>li:hover{
                         background: #98cbf7;
                         transition: all 200ms ease-in;
@@ -59,9 +62,6 @@
                 /* menu ul li ends  */
 
                     /* menu ul li a starts  */
-                        .menu>ul>li>a{
-                            color: #98cbf7;
-                        }
                     /* menu ul li a ends  */
             /* menu ul li "products" sublist starts  */
             .products{
@@ -94,12 +94,12 @@
                         background: #98cbf7;
                         transition: all 200ms ease-in;
                     }
-                    .products>ul>li:hover a{
+                    .products>ul>li:hover{
                         color: #1F85DE;
                     }
                     /* products ul li ends  */
                         /* products ul li a starts  */
-                        .products>ul>li>a{
+                        .products>ul>li{
                             color: #98cbf7;
                         }
                         /* products ul li a ends  */
